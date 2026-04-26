@@ -1,5 +1,7 @@
 /* styles.css */
 
-* {
-	font-family: Arial;
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #87CEFA; /* baby blue */
 }
