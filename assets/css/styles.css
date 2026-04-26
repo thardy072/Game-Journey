@@ -17,6 +17,10 @@ body {
 
 /* The actual visible line */
 .line {
+  position: absolute;
+  top: 200px; /* adjust this number */
+  left: 50%;
+  transform: translateX(-50%);
   width: 80%;              /* controls length */
   height: 6px;             /* thickness */
   background-color: #000;  /* black line for visibility */
