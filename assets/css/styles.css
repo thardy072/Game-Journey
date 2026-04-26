@@ -20,5 +20,4 @@ body {
   width: 80%;              /* controls length */
   height: 6px;             /* thickness */
   background-color: #000;  /* black line for visibility */
-  border-radius: 3px;
 }
