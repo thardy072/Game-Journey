@@ -9,10 +9,10 @@ body {
 .timeline {
   position: relative;
   width: 100%;
-  height: 200px; /* space for the timeline */
-  display: flex;
+  height: 300px; /* space for the timeline */
+ /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
 }
 
 /* The actual visible line */
