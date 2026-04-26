@@ -5,3 +5,20 @@ body {
   padding: 0;
   background-color: #87CEFA; /* baby blue */
 }
+/* Timeline container */
+.timeline {
+  position: relative;
+  width: 100%;
+  height: 200px; /* space for the timeline */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* The actual visible line */
+.line {
+  width: 80%;              /* controls length */
+  height: 6px;             /* thickness */
+  background-color: #000;  /* black line for visibility */
+  border-radius: 3px;
+}
