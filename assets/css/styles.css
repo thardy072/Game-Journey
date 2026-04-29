@@ -18,10 +18,10 @@ body {
 /* The actual visible line */
 .line {
   position: absolute;
-  top: 250px; /* adjust this number */
+  top: 500px; /* adjust this number */
   left: 50%;
   transform: translateX(-50%);
-  width: 80%;              /* controls length */
+  width: 100%;              /* controls length */
   height: 6px;             /* thickness */
   background-color: #000;  /* black line for visibility */
 }
@@ -29,11 +29,20 @@ body {
 /* Dots */
 .dot {
   position: absolute;
-  top: 200px; /* SAME as your line's top value */
+  top: 500px; /* SAME as your line's top value */
   transform: translate(-50%, -50%);
   width: 16px;
   height: 16px;
   background-color: white;
   border: 3px solid black;
   border-radius: 50%;
+}
+
+/* Game image above dot */
+.game-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-bottom: 120px; /* controls distance from line */
+  border-radius: 10px;
 }
